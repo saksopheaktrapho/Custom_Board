@@ -1,0 +1,52 @@
+# See: https://arrowdot.io/
+
+menu.cpu=Processor
+
+##############################################################
+
+ar_bb.name=ArrowDot Beginner Board
+
+ar_bb.vid.0=0x2341
+ar_bb.pid.0=0x0010
+ar_bb.vid.1=0x2341
+ar_bb.pid.1=0x0042
+ar_bb.vid.2=0x2A03
+ar_bb.pid.2=0x0010
+ar_bb.vid.3=0x2A03
+ar_bb.pid.3=0x0042
+ar_bb.vid.4=0x2341
+ar_bb.pid.4=0x0210
+ar_bb.vid.5=0x2341
+ar_bb.pid.5=0x0242
+
+ar_bb.upload.tool=avrdude
+ar_bb.upload.maximum_data_size=8192
+
+ar_bb.bootloader.tool=avrdude
+ar_bb.bootloader.low_fuses=0xFF
+ar_bb.bootloader.unlock_bits=0x3F
+ar_bb.bootloader.lock_bits=0x0F
+
+ar_bb.build.f_cpu=16000000L
+ar_bb.build.core=arduino
+ar_bb.build.variant=ar_bb
+ar_bb.build.board=ARROWDOT
+# default board may be overridden by the cpu menu
+ar_bb.build.board=AVR_MEGA2560
+
+## Arduino Mega w/ ATmega2560
+## -------------------------
+ar_bb.menu.cpu.atmega2560=ATmega2560 (Mega 2560)
+
+ar_bb.menu.cpu.atmega2560.upload.protocol=wiring
+ar_bb.menu.cpu.atmega2560.upload.maximum_size=253952
+ar_bb.menu.cpu.atmega2560.upload.speed=115200
+
+ar_bb.menu.cpu.atmega2560.bootloader.high_fuses=0xD8
+ar_bb.menu.cpu.atmega2560.bootloader.extended_fuses=0xFD
+ar_bb.menu.cpu.atmega2560.bootloader.file=stk500v2/stk500boot_v2_mega2560.hex
+
+ar_bb.menu.cpu.atmega2560.build.mcu=atmega2560
+ar_bb.menu.cpu.atmega2560.build.board=AVR_MEGA2560
+
+##############################################################
