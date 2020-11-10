@@ -30,7 +30,6 @@ ar_bb.bootloader.lock_bits=0x0F
 ar_bb.build.f_cpu=16000000L
 ar_bb.build.core=arduino
 ar_bb.build.variant=ar_bb
-ar_bb.build.board=ARROWDOT
 # default board may be overridden by the cpu menu
 ar_bb.build.board=AVR_MEGA2560
 

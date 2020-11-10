@@ -11,12 +11,12 @@
         {
           "name": "ArrowDot Custom Board",
           "architecture": "avr",
-          "version": "1.0.0",
+          "version": "1.0.1",
           "category": "Contributed",
-          "url": "https://github.com/saksopheaktrapho/Custom_Board/blob/main/ArrowDot_Custom_Board.zip",
-          "archiveFileName": "ArrowDot_Custom_Board.zip",
-          "checksum": "SHA-256:e90b8ca6178ad6fc8928de4ffb6e22c9",
-          "size": "6033018",
+          "url": "https://github.com/saksopheaktrapho/Custom_Board/blob/main/ArrowDot_Custom_Board_v1.0.1.zip?raw=true",
+          "archiveFileName": "ArrowDot_Custom_Board_v1.0.1.zip",
+          "checksum": "SHA-256:FF5F24B92A5E996B971E9471323DA6D779AD86B7EAB754FA6947B4C59909715C",
+          "size": "6063584",
           "boards": [
             {
               "name": "ArrowDot Beginner Board"
