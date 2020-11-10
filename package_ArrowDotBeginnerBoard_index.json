@@ -1,0 +1,60 @@
+{
+  "packages":
+  [
+    {
+      "name": "arrowdot",
+      "maintainer": "ArrowDot",
+      "websiteURL": "https://arrowdot.io",
+      "email" : "p.saksopheaktra@arrowdot.io",
+      "platforms":
+      [
+        {
+          "name": "ArrowDot Custom Board",
+          "architecture": "avr",
+          "version": "1.0.0",
+          "category": "Contributed",
+          "url": "https://github.com/saksopheaktrapho/Custom_Board/blob/main/ArrowDot_Custom_Board.zip",
+          "archiveFileName": "ArrowDot_Custom_Board.zip",
+          "checksum": "SHA-256:e90b8ca6178ad6fc8928de4ffb6e22c9",
+          "size": "6033018",
+          "boards": [
+            {
+              "name": "ArrowDot Beginner Board"
+            }
+          ],
+          "toolsDependencies":
+          [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "7-2017q4"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.8.0-48-gb176eee"
+            },
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.10.0-arduino9"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "4.5.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS-Atmel",
+              "version": "1.2.0"
+            }
+          ]
+        }
+      ],
+      "tools":
+      [
+      ]
+    }
+  ]
+}
